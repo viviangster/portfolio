@@ -1,0 +1,42 @@
+@import "tailwindcss";
+
+/* ========== Root Defaults ========== */
+:root {
+  font-family: 'Garamond', serif;
+  line-height: 1.5;
+  font-weight: 400;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+}
+
+/* ========== Theme Variables ========== */
+[data-theme="dark"] {
+  --color-bg: #111;
+  --color-text: #eee;
+  --color-border: #333;
+  --color-primary: #1e90ff;
+  --color-secondary: #2e8b57;
+}
+
+[data-theme="light"] {
+  --color-bg: #fff;
+  --color-text: #000;
+  --color-border: #ccc;
+  --color-primary: #007bff;
+  --color-secondary: #28a745;
+}
+
+/* ========== Animations ========== */
+
+/* Fade In Up */
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
