@@ -17,7 +17,7 @@ const Contact = () => {
       <ContactForm />
 
       <div className="max-w-3xl mx-auto">
-        <h2 className="text-3xl font-bold text-pink-900 mb-6">References</h2>
+        <h2 className="text-3xl font-bold text-amber-900 mb-6">References</h2>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 bg-white px-6 py-12 max-w-4xl rounded-md text-gray-800 text-lg leading-relaxed">
           {RefContact.map((ref, index) => (

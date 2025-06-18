@@ -7,7 +7,7 @@ const Resume = () => {
       
       <iframe src="/assets/cvva25.pdf" 
 width="100%"
-height="600px"
+height="1000px"
 title="PDF of Resume"
         View or Download
       />

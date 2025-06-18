@@ -30,7 +30,7 @@ const History = () => {
       backgroundRepeat: 'no-repeat',
       backgroundPosition: 'center'
     }}>
-      <h2 className="text-3xl font-bold text-pink-900 mb-8">History</h2>
+      <h2 className="text-3xl font-bold text-amber-900 mb-8">History</h2>
 
       {loading ? (
         <p className="text-gray-500">Loading history...</p>
@@ -44,7 +44,7 @@ const History = () => {
                 alt={item.alt}
                 onClick={() => setActiveIndex(index)}
                 className={`w-20 h-20 object-contain cursor-pointer rounded border p-1 transition ${
-                  activeIndex === index ? 'border-purple-500 bg-purple-50' : 'border-gray-300 bg-white'
+                  activeIndex === index ? 'border-amber-400 bg-amber-100' : 'border-gray-300 text-gray-800 bg-amber-50 rounded-lg '
                 }`}
               />
             ))}

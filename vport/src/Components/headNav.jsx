@@ -12,17 +12,17 @@ function Header() {
         
         <div className='flex items-center gap-4'>
           <img src="/assets/cassiopeiav.png" alt="Logo" className='h-12 w-auto' />
-          <h1 className='text-2xl text-shadow-pink-900 font-bold'>Angster Influence & Solutions</h1>
+          <h1 className='text-2xl text-amber-800 font-bold'>Vivian Angster</h1>
         </div>
 
         
-        <nav className='hidden md:flex gap-6 text-fuchsia-950'>
-          <Link to="/" className='hover:text-red-400 transition'>Home</Link>
+        <nav className='hidden md:flex gap-6 text-amber-900'>
+          <Link to="/" className='hover:text-amber-300 transition'>Home</Link>
           
-          <Link to="/history" className='hover:text-red-400 transition'>History</Link>
-          <Link to="/contact" className='hover:text-red-400 transition'>Contact</Link>
-          <Link to="/blog" className='hover:text-red-400 transition'>Blog</Link>
-          <Link to="/resume" className='hover:text-red-400 transition'>CV</Link>
+          <Link to="/history" className='hover:text-amber-400 transition'>History</Link>
+          <Link to="/contact" className='hover:text-amber-500 transition'>Contact</Link>
+          <Link to="/blog" className='hover:text-amber-400 transition'>Blog</Link>
+          <Link to="/resume" className='hover:text-amber-300 transition'>CV</Link>
         </nav>
 
         
@@ -40,12 +40,12 @@ function Header() {
       {menuOpen && (
         <div className='md:hidden bg-white shadow-md px-6 pb-4'>
           <nav className='flex flex-col gap-4 text-fuchsia-950'>
-            <Link to="/" onClick={toggleMenu} className='hover:text-red-400 transition'>Home</Link>
+            <Link to="/" onClick={toggleMenu} className='hover:text-amber-400 transition'>Home</Link>
             
-            <Link to="/history" onClick={toggleMenu} className='hover:text-red-400 transition'>History</Link>
-            <Link to="/references" onClick={toggleMenu} className='hover:text-red-400 transition'>References</Link>
-            <Link to="/blog" onClick={toggleMenu} className='hover:text-red-400 transition'>Blog</Link>
-            <Link to="/resume" onClick={toggleMenu} className='hover:text-red-400 transition'>CV</Link>
+            <Link to="/history" onClick={toggleMenu} className='hover:text-amber-400 transition'>History</Link>
+            <Link to="/references" onClick={toggleMenu} className='hover:text-amber-400 transition'>References</Link>
+            <Link to="/blog" onClick={toggleMenu} className='hover:text-amber-400 transition'>Blog</Link>
+            <Link to="/resume" onClick={toggleMenu} className='hover:text-amber-400 transition'>CV</Link>
           </nav>
         </div>
       )}

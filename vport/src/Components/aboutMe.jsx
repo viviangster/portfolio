@@ -2,12 +2,12 @@ import React from 'react';
 
 const AboutMe = () => {
   return (
-    <section className="bg-white pt-10 px-6 py-8 text-gray-800 max-w-3xl">
-      <h1 className="text-md md:text-3xl font-bold mb-4 text-black">
-        vivian <span className=' italic'>angster</span>
+    <section className="pt-10 px-6 py-8  text-black bg-amber-50 rounded-lg max-w-3xl">
+      <h1 className="text-md md:text-3xl font-bold mb-4 text-amber-800">
+        Angster Influence <span className=' italic'>& Solutions</span>
       </h1>
 
-      <h2 className="text-l italic text-pink-900 mb-2">
+      <h2 className="text-l italic text-amber- mb-2">
         Market Study, Systems Development and Lean Management Specialist
       </h2>
 
